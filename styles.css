@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contentBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#actionBox {
+  margin: 25px;
+}
+
+#nameList {
+  margin-left: 50px;
+}
+
+.title {
+  margin-top: 0;
+}
