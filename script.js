@@ -15,8 +15,12 @@ async function generate() {
 
         let newDiv = document.createElement('div');
 
+        let id = `name_${i + 1}`;
+        console.log(id);
+
         let returnNames = `
-        <p>${allNames}</p>
+        <p id="${id}">${allNames}</p>
+        <img src="./assets/copy.png" height="15px" width="15px">
         `;
         newDiv.innerHTML = returnNames;
         nameList.appendChild(newDiv);
