@@ -2,7 +2,7 @@ const genBtn = document.getElementById('genBtn');
 const nameList = document.getElementById('nameList');
 
 async function generate() {
-  await fetch('https://randommer.io/api/Name?nameType=fullname&quantity=10', {
+  await fetch('https://randommer.io/api/Name?nameType=fullname&quantity=5', {
     method: 'GET',
     headers: { 'X-Api-Key': '70154bc0089a4031aabcc4f39a45ecb3' },
   })
