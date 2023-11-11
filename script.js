@@ -14,13 +14,14 @@ async function generate() {
         console.log(allNames);
 
         let newDiv = document.createElement('div');
+        newDiv.classList.add('nameBoxes');
 
         let id = `name_${i + 1}`;
         console.log(id);
 
         let returnNames = `
         <p id="${id}">${allNames}</p>
-        <img src="./assets/copy.png" height="15px" width="15px">
+        <img class="copyIcon" src="./assets/copy.png" height="15px" width="15px">
         `;
         newDiv.innerHTML = returnNames;
         nameList.appendChild(newDiv);
