@@ -28,3 +28,11 @@
 .title {
   margin-top: 0;
 }
+
+.nameBoxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
